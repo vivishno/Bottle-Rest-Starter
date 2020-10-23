@@ -16,8 +16,7 @@ jobs:
     with:
      python-version: 3.7
   # install dependencies
-  - name: python install
-    working-directory: app 
+  - name: python install 
     run: |
      sudo apt install python3.7-venv
      python -m venv --copies antenv
